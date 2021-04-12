@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 600px;
+  width: 1200px;
+}
+
+.banner {
+  display: block;
+  height: 600px;
+  width: 1200px;
+  background: radial-gradient(circle, rgba(71,40,133,1) 0%, rgba(82,46,155,1) 66%, rgba(114,78,187,1) 100%);
+  border: 1px solid #724EBB;
+  border-left: 50px solid #3B216F;
+  border-radius: 4px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+
+.inner-banner {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/az-subtle.png');
+}
+
+.banner-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/inspiration-geometry.png');
+  position: relative;
+}
+
+.profile {
+  margin-left: auto;
+  margin-right: 80px;
+  height: 420px;
+  width: auto;
+  border-radius: 70px;
+  border: 10px solid #3B216F;
+  background-color: #EBE6F5;
+  -webkit-box-shadow: inset 0px 0px 6px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 6px 1px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 6px 1px rgba(0,0,0,0.75);
+}
+
+.banner-title {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-items: center;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  color: #CCFFCC;
+  width: 55%;
+}
+
+.banner-title h1 {
+  font: 700 92px/92px 'Roboto Condensed', monospace;
+  margin-bottom: 10px;
+  padding: 0;
+  color: #CCFF66;
+}
+
+.banner-title p {
+  font: 400 42px/52px 'Cabin', monospace;
+  margin: 0;
+  padding: 0;
+}
